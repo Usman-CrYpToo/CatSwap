@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.2",
+    "@uniswap/sdk-core": "^4.0.6",
+    "@uniswap/v3-periphery": "^1.0.1",
+    "@uniswap/v3-sdk": "^3.10.0",
+    "web3modal": "^1.9.12"
+  }
+}

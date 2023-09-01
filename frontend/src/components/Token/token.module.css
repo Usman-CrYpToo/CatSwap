@@ -1,0 +1,98 @@
+:root{
+    --main-color:#CFF80B;
+    --main-bg-color:#1E1E1E;
+    --main-font-color:#FFFFFF;
+}
+.container{
+    background-color: transparent;
+    height: 100%;
+}
+.container .column{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 20px 30px;
+   
+}
+
+.column .head{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.close button{
+    background-color: var(--main-bg-color); 
+    cursor: pointer;
+    border: none;
+}
+
+.row .heading{
+    font-size:small;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.heading img{
+    margin: 0 4px;
+}
+
+.slipage{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    height: 29px;
+}
+.slipage input{
+    width: 78%;
+    outline: none;
+    border: none;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+   border: solid 1px var(--main-color);
+   border-radius: 5px;
+   padding: 4px;
+   padding-left: 9px;
+   transition-duration: 35ms;
+   transition-timing-function: ease;
+}
+
+
+.slipage button{
+    padding: 4px;
+    background-color: var(--main-color) ;
+    color: var(--main-bg-color);
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 4px;
+    margin-left: 4px;
+    transition: 1s ease;
+    border: none;
+}
+
+.trans .transbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin:0 20px;
+    font-size:small;
+    font-weight: bold;
+}
+
+.slipage input:focus{
+        background-color:#46454518;
+        border: solid 2px var(--main-color);
+        
+}    
+
+.slipage button:active {
+    opacity: 0.33;
+ 
+}
+       
+.close button:active{
+    opacity:0.33;
+}
+
+
